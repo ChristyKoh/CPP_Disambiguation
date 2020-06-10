@@ -8,8 +8,8 @@
 #ifndef DISAMBIGCUSTOMIZEDDEFS_H_
 #define DISAMBIGCUSTOMIZEDDEFS_H_
 
-#include "DisambigDefs.h"
 #include "DisambigComp.h"
+#include "DisambigDefs.h"
 
 /*
  * For each concrete class, if it can be one of the components in the similarity profile, whether its comparator is activated or not,

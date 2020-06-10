@@ -12,6 +12,7 @@
 #include <iostream>
 #include <map>
 #include <set>
+#include "DisambigComp.h"
 #include "DisambigDefs.h"
 #include <fstream>
 

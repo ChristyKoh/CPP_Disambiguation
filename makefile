@@ -5,13 +5,13 @@
 CXX=g++
 CC=gcc
 CFLAGS=-O3 -g -Wall -I/usr/local/include -L/usr/local/lib
-OOQPINCLUDEDIR=/usr/local/include/ooqp
-ILOGINSTALLDIR=/home/ysun/ILOG/CPLEX_Studio_AcademicResearch122
+OOQPINCLUDEDIR=/usr/local/include/OOQP
+ILOGINSTALLDIR=/opt/ibm/ILOG/CPLEX_Studio124
 
 CPLEXINCLUDE=$(ILOGINSTALLDIR)/cplex/include
 CONCERTINCLUDE=$(ILOGINSTALLDIR)/concert/include
-CPLEXLIB=$(ILOGINSTALLDIR)/cplex/lib/x86_sles10_4.1/static_pic
-CONCERTLIB=$(ILOGINSTALLDIR)/concert/lib/x86_sles10_4.1/static_pic
+CPLEXLIB=$(ILOGINSTALLDIR)/cplex/lib/x86-64_sles10_4.1/static_pic
+CONCERTLIB=$(ILOGINSTALLDIR)/concert/lib/x86-64_sles10_4.1/static_pic
 
 all:exedisambig txt2sqlite3
 
